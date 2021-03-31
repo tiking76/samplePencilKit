@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let canvas = PKCanvasView(frame: view.frame)
         view.addSubview(canvas)
-        canvas.tool = PKInkingTool(.pen, width: 30)
+        canvas.drawingPolicy = .anyInput
+        canvas.tool = PKInkingTool(.pen, width: 4.0)
     }
 }
 
