@@ -6,18 +6,31 @@
 //
 
 import UIKit
-
-// PencilKit を使う
-import PencilKit
+import PanModal
 
 class ViewController: UIViewController {
+    
+    let button: UIButton = {
+            let button = UIButton()
+            button.setTitle("表示！", for: .normal)
+            button.titleLabel?.font = .boldSystemFont(ofSize: 20)
+            button.layer.cornerRadius = 20
+            button.backgroundColor = .orange
+            return button
+        }()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let canvas = PKCanvasView(frame: view.frame)
-        view.addSubview(canvas)
-        canvas.drawingPolicy = .anyInput
-        canvas.tool = PKInkingTool(.pen, width: 4.0)
-    }
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            button.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+            button.center = view.center
+            button.addTarget(self, action: #selector(presentModal(_:)), for: .touchUpInside)
+            view.addSubview(button)
+        }
+
+        @objc func presentModal(_ sender: UIButton) {
+            let viewController = ModalViewController()
+            viewController.preferredContentSize = CGSize(width: 256, height: 256)
+            presentPanModal(viewController, sourceView: sender, sourceRect: sender.bounds)
+        }
 }
 

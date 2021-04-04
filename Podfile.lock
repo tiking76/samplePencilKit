@@ -1,0 +1,16 @@
+PODS:
+  - PanModal (1.2.7)
+
+DEPENDENCIES:
+  - PanModal
+
+SPEC REPOS:
+  trunk:
+    - PanModal
+
+SPEC CHECKSUMS:
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+
+PODFILE CHECKSUM: e3eb5a704d346c363811276e6e42adc68cf9456b
+
+COCOAPODS: 1.10.1
