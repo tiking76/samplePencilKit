@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     let button: UIButton = {
             let button = UIButton()
-            button.setTitle("表示！", for: .normal)
+            button.setTitle("show！", for: .normal)
             button.titleLabel?.font = .boldSystemFont(ofSize: 20)
             button.layer.cornerRadius = 20
             button.backgroundColor = .orange
