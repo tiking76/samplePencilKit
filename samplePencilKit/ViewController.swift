@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         }
 
         @objc func presentModal(_ sender: UIButton) {
-            let viewController = ModalViewController()
+            let viewController = UIKitModalViewController()
             viewController.preferredContentSize = CGSize(width: 256, height: 256)
             presentPanModal(viewController, sourceView: sender, sourceRect: sender.bounds)
         }

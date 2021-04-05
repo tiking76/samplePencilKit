@@ -1,5 +1,5 @@
 //
-//  ModalViewController.swift
+//  SwiftUIModalViewController.swift
 //  samplePencilKit
 //
 //  Created by tiking on 2021/04/04.
@@ -8,7 +8,7 @@
 import SwiftUI
 import PanModal
 
-class ModalViewController: UIViewController {
+class SwiftUIModalViewController: UIViewController {
     
    private let vc: UIHostingController = UIHostingController(rootView: PaintView())
     
@@ -29,7 +29,7 @@ class ModalViewController: UIViewController {
     }
 }
 
-extension ModalViewController: PanModalPresentable {
+extension SwiftUIModalViewController: PanModalPresentable {
     var panScrollable: UIScrollView? {
         return nil
     }

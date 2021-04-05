@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,10 @@
 		11376CB22610664E00CBD498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11376CB02610664E00CBD498 /* Main.storyboard */; };
 		11376CB42610665100CBD498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11376CB32610665100CBD498 /* Assets.xcassets */; };
 		11376CB72610665100CBD498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11376CB52610665100CBD498 /* LaunchScreen.storyboard */; };
-		1138A6042619AD0700943138 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138A6032619AD0700943138 /* ModalViewController.swift */; };
+		1138A6042619AD0700943138 /* SwiftUIModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1138A6032619AD0700943138 /* SwiftUIModalViewController.swift */; };
 		115FD4182615EE41009BC12C /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115FD4172615EE41009BC12C /* Pencil.swift */; };
 		115FD41B2615EE59009BC12C /* PaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115FD41A2615EE59009BC12C /* PaintView.swift */; };
+		11785B23261B5A1000E233A4 /* UIKitModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11785B22261B5A1000E233A4 /* UIKitModalViewController.swift */; };
 		853DF573DBD7CAFE5D48E763 /* Pods_samplePencilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6932F5746FEDB63F68AA35 /* Pods_samplePencilKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,9 +29,10 @@
 		11376CB32610665100CBD498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11376CB62610665100CBD498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11376CB82610665100CBD498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1138A6032619AD0700943138 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		1138A6032619AD0700943138 /* SwiftUIModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIModalViewController.swift; sourceTree = "<group>"; };
 		115FD4172615EE41009BC12C /* Pencil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
 		115FD41A2615EE59009BC12C /* PaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintView.swift; sourceTree = "<group>"; };
+		11785B22261B5A1000E233A4 /* UIKitModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitModalViewController.swift; sourceTree = "<group>"; };
 		3FF8830815F196983F48DD0E /* Pods-samplePencilKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplePencilKit.release.xcconfig"; path = "Target Support Files/Pods-samplePencilKit/Pods-samplePencilKit.release.xcconfig"; sourceTree = "<group>"; };
 		6948BE6B92549BD6C43EF32C /* Pods-samplePencilKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplePencilKit.debug.xcconfig"; path = "Target Support Files/Pods-samplePencilKit/Pods-samplePencilKit.debug.xcconfig"; sourceTree = "<group>"; };
 		CD6932F5746FEDB63F68AA35 /* Pods_samplePencilKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_samplePencilKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +80,8 @@
 				11376CB82610665100CBD498 /* Info.plist */,
 				115FD4172615EE41009BC12C /* Pencil.swift */,
 				115FD41A2615EE59009BC12C /* PaintView.swift */,
-				1138A6032619AD0700943138 /* ModalViewController.swift */,
+				1138A6032619AD0700943138 /* SwiftUIModalViewController.swift */,
+				11785B22261B5A1000E233A4 /* UIKitModalViewController.swift */,
 			);
 			path = samplePencilKit;
 			sourceTree = "<group>";
@@ -97,7 +100,6 @@
 				6948BE6B92549BD6C43EF32C /* Pods-samplePencilKit.debug.xcconfig */,
 				3FF8830815F196983F48DD0E /* Pods-samplePencilKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -218,8 +220,9 @@
 				11376CAF2610664E00CBD498 /* ViewController.swift in Sources */,
 				115FD41B2615EE59009BC12C /* PaintView.swift in Sources */,
 				11376CAB2610664E00CBD498 /* AppDelegate.swift in Sources */,
+				11785B23261B5A1000E233A4 /* UIKitModalViewController.swift in Sources */,
 				115FD4182615EE41009BC12C /* Pencil.swift in Sources */,
-				1138A6042619AD0700943138 /* ModalViewController.swift in Sources */,
+				1138A6042619AD0700943138 /* SwiftUIModalViewController.swift in Sources */,
 				11376CAD2610664E00CBD498 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
