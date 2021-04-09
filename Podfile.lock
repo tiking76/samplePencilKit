@@ -1,16 +1,24 @@
 PODS:
+  - FloatingPanel (2.3.0)
   - PanModal (1.2.7)
+  - SPStorkController (1.8.5)
 
 DEPENDENCIES:
+  - FloatingPanel
   - PanModal
+  - SPStorkController
 
 SPEC REPOS:
   trunk:
+    - FloatingPanel
     - PanModal
+    - SPStorkController
 
 SPEC CHECKSUMS:
+  FloatingPanel: 373478513a197cf140abd219ca9a9c049967332b
   PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  SPStorkController: 68966ed3134de2be2a8bbd1475c7e81f3f7d01ee
 
-PODFILE CHECKSUM: e3eb5a704d346c363811276e6e42adc68cf9456b
+PODFILE CHECKSUM: 7acc7a84cc6011469fcb705e7b6966fa4df992dc
 
 COCOAPODS: 1.10.1

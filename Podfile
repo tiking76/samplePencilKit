@@ -7,5 +7,7 @@ target 'samplePencilKit' do
 
   # Pods for samplePencilKit
   pod 'PanModal'
+  pod 'FloatingPanel'
+  pod 'SPStorkController'
 
 end
