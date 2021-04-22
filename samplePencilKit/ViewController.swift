@@ -6,9 +6,9 @@
 //
 
 import UIKit
-import PanModal
+import SPStorkController
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SPStorkControllerDelegate {
     
     let button: UIButton = {
             let button = UIButton()
@@ -30,7 +30,13 @@ class ViewController: UIViewController {
         @objc func presentModal(_ sender: UIButton) {
             let viewController = UIKitModalViewController()
             viewController.preferredContentSize = CGSize(width: 256, height: 256)
-            presentPanModal(viewController, sourceView: sender, sourceRect: sender.bounds)
+            let transitionDelegate = SPStorkTransitioningDelegate()
+            transitionDelegate.storkDelegate = self
+            transitionDelegate.customHeight = 300
+            transitionDelegate.swipeToDismissEnabled = false
+            transitionDelegate.showIndicator = false
+            viewController.transitioningDelegate = transitionDelegate
+            viewController.modalPresentationStyle = .custom
+            self.present(viewController, animated: true, completion: nil)
         }
 }
-

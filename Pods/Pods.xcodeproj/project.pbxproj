@@ -3,34 +3,86 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B38FFBF6FBE7431C41D3D050A010ED9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2E429C92AE2DC78C28DA149D8A1B1514 /* PanContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D601C0D01A583589670C3E48DC4B44 /* PanContainerView.swift */; };
-		3DB448A3E9B64E934BC76FE0FC7621FE /* PanModalPresentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F20FDAF5E8955D00BB11BE8232441A /* PanModalPresentationDelegate.swift */; };
-		4568EDD1163363300EAC0BA60D5CD7AB /* DimmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A690DA794A2F61184A1BDA91D484E39F /* DimmedView.swift */; };
-		45CF72ED3BCD237B440ACB19851A589A /* PanModalHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24C3F634A730C89882E691C3799CF1F /* PanModalHeight.swift */; };
-		5C1A20D006F8DEA971D39B1E3DCE2D3C /* Pods-samplePencilKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CAD861E0F612FF99894BE50FBBC4B5 /* Pods-samplePencilKit-dummy.m */; };
-		5D55EB3EC082E70D15B02C607CF6440E /* PanModalPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035170993C8ED708123768E0C45A1D8A /* PanModalPresentationAnimator.swift */; };
-		6A88FBA7BC5D3D69E315F9AE2E0DEE3B /* PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553677FFE4DEDBE11C54F3FDD584269B /* PanModalPresenter.swift */; };
-		80212493C474B326F66876261FA57C65 /* UIViewController+PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5803B63F62745E0499D40A373AE39471 /* UIViewController+PanModalPresenter.swift */; };
-		8098DAF576BD71BF8514ECF921F96AA3 /* PanModalPresentable+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D38DBB755C381739E3E6B61769DBD /* PanModalPresentable+UIViewController.swift */; };
-		83444168FD31011F7217EFA2684AE936 /* PanModalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EBAD2EC20B523C5A2706D8B2A9AB04 /* PanModalAnimator.swift */; };
-		93C1556DDAED08BE604B2B685155F553 /* PanModalPresentable+LayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254CB43163B26FE0399AD46076288C93 /* PanModalPresentable+LayoutHelpers.swift */; };
-		B46152373E6CBC6791AAE85205C33F98 /* PanModalPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A477556CE7E95A8877A9DBB7A08EB3 /* PanModalPresentable.swift */; };
-		BD030684DB491453C175AA7F99C5DE13 /* PanModal.h in Headers */ = {isa = PBXBuildFile; fileRef = A556275631E6CA46F9C17C6CB94CCD60 /* PanModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD7DC4E3DF9AD9EF9FD9E1C0C67C386B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D1D5644ECEB035D24C80313FE860FA28 /* Pods-samplePencilKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE75433E4D63279A192EA366D23E8F32 /* Pods-samplePencilKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1F413745F02F75C0D42753DCB9D79BC /* PanModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD995457F1314CAC7E9EAB9F975C38 /* PanModalPresentationController.swift */; };
-		DC1A70CACD0B2ACA2A3FAA5EF320C15B /* PanModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC7B6E86C5FFCBCA804131B198CA1B1 /* PanModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2021C557BAABC303255C299C768CBA8 /* PanModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B180D58A9C2E1F03942FF7F35ABB8AD6 /* PanModal-dummy.m */; };
-		F87BF668A74FAF0D05C057C5033DF52F /* PanModalPresentable+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CC42FCC8A06AF623153CD18D513827 /* PanModalPresentable+Defaults.swift */; };
+		0235661CEC757F944072D480575DA609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		1659A83A37A37847E63460EE37298260 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451BD3988373866550E4E5330F1A1745 /* Controller.swift */; };
+		1BAD8C95A88770E3C630942508C68228 /* SPStorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BDC03C19BA323CF18A5A50B7990755 /* SPStorkController.swift */; };
+		27A3FCA33FC096112F945F0969C4B4A1 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F521064A373C69FE3EA17D05D40C27 /* UIExtensions.swift */; };
+		29B8BE76F05E970017BA0771B3B25D59 /* SPStorkController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E49B3B0125755517155888BFC83761 /* SPStorkController-dummy.m */; };
+		2E429C92AE2DC78C28DA149D8A1B1514 /* PanContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA369E3307E2D3DCB0A162D0119739 /* PanContainerView.swift */; };
+		31F197BE95B262581D49F7F165F13B5A /* SPStorkController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B774ED0114D0DE2D6170799A6FFBD6D /* SPStorkController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CAD57136F62973B17307271803DABE /* PassthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4C2507C22D086C47BF1A3F13F0F1E /* PassthroughView.swift */; };
+		3DB448A3E9B64E934BC76FE0FC7621FE /* PanModalPresentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB52D597D5594BA85E4AE214B7B98A /* PanModalPresentationDelegate.swift */; };
+		418B744DEFDE1648A55B5017210252B2 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757D75BB33844412A0D1E6B9737A0C0 /* Position.swift */; };
+		42290ADFDAA15ADDC859EFB62FE36920 /* BackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E798A3F7443B9DB0986FD8D442F5A11E /* BackdropView.swift */; };
+		4568EDD1163363300EAC0BA60D5CD7AB /* DimmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4163C15EB77E38E7C37008F71BF76CA /* DimmedView.swift */; };
+		45CF72ED3BCD237B440ACB19851A589A /* PanModalHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC99706E08147C3136FCB244DA37C4E /* PanModalHeight.swift */; };
+		477B6758422656FC38509380F337786E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		48FA84B1A4D6A45CAF42580875F1942A /* FloatingPanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AA5A261612CDE09131940118093D2B /* FloatingPanel-dummy.m */; };
+		594272573E6B956E3E06FCA943EFB0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		5AEB31866F86C7982FD07CC4ED22CDBC /* SPStorkHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC3656F5F755B15AF1C7AC76BED2C4 /* SPStorkHaptic.swift */; };
+		5BDEBA1EC22C40AA6546AD1FAFE9CA38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		5D55EB3EC082E70D15B02C607CF6440E /* PanModalPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669F3731E2C6DE1AD015445C9EE74A4 /* PanModalPresentationAnimator.swift */; };
+		632C98DAAE5B25775DE3B90667B2FB1B /* SPStorkCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020E0138DBFC21DCD30A96A4459BA4DD /* SPStorkCloseButton.swift */; };
+		6688C50222C0F38A1754143FFC4CFE9C /* SPStorkSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE4DB4C528C6E3D3A89C6F8D0D73FF /* SPStorkSeque.swift */; };
+		6A88FBA7BC5D3D69E315F9AE2E0DEE3B /* PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538092B9B020BAFB6332627D7A994B0A /* PanModalPresenter.swift */; };
+		6AF554EE7266C75CB59F784083050779 /* SPStorkControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59FB27C82A6F72F0CC0C4C03E6A62D6 /* SPStorkControllerDelegate.swift */; };
+		6D56344D523518D928E8D9B62A542076 /* SurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E161E7574E1E4E64BC9CCBABFE0FF0C2 /* SurfaceView.swift */; };
+		74CBF317C6223ED9D5ACA773EE06B349 /* SPStorkDismissingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0836D980D41A71CCC0D69C33489A47EE /* SPStorkDismissingAnimationController.swift */; };
+		80212493C474B326F66876261FA57C65 /* UIViewController+PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DFF86AC55454FE76A8D872B01BDDB /* UIViewController+PanModalPresenter.swift */; };
+		8098DAF576BD71BF8514ECF921F96AA3 /* PanModalPresentable+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E4BEE1FDAC6F77F4249D91657BCE09 /* PanModalPresentable+UIViewController.swift */; };
+		83444168FD31011F7217EFA2684AE936 /* PanModalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36D9E1082A9F1170517E2EDE2D3D315 /* PanModalAnimator.swift */; };
+		84A2F170B5142E9A2D2F62D2DA3CB43E /* SPStorkControllerConfirmDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BEA3A68BE826995E71EEA370C9F58 /* SPStorkControllerConfirmDelegate.swift */; };
+		84D31336D2BB42EE8AE2231C65278BD7 /* GrabberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373A7E07818518177B1EA0F0C7419466 /* GrabberView.swift */; };
+		8F821DB4342AE3754D4409129B9435DA /* SPStorkPresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60FBABE14E0C25133B17D65247CB053 /* SPStorkPresentingAnimationController.swift */; };
+		93C1556DDAED08BE604B2B685155F553 /* PanModalPresentable+LayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2499923619A76DB2CA7D9FE26F05ABC /* PanModalPresentable+LayoutHelpers.swift */; };
+		97EC0CF457117DFEC9A33CF45BDECBEF /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68554B11FB6395BE6C2A1ED9A292C7B /* Core.swift */; };
+		9A1D71A113F2B7FA325CEE637CF85CF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		9E33E401E748B04932CCAC48B29625F8 /* SPStorkArrowMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF210D2095EA75C2CE82AFCF0D673538 /* SPStorkArrowMode.swift */; };
+		A3EDCB78C9EB79175894519DBCDA574B /* SPStorkViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433ABECF3E3242D48EA61646ADBD985 /* SPStorkViewControllerExtenshion.swift */; };
+		A6F49A30FB5F94E6B9A8DD6EBA49EB74 /* Pods-samplePencilKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE75433E4D63279A192EA366D23E8F32 /* Pods-samplePencilKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A85DDC7CA48FEF8C82A7B9B661E8A3E5 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62A1F90A2A0DBD1D8B8076FBBDFBCF /* Layout.swift */; };
+		B2E27C74797E8F71B15646DB256CA2F4 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4733DBBECD1A99D316E44E6A03D15D5A /* Behavior.swift */; };
+		B46152373E6CBC6791AAE85205C33F98 /* PanModalPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EBC5973E25F7B07F409884010DFF92 /* PanModalPresentable.swift */; };
+		B4CA4AB5B0B0CC75E54814CE654034EC /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D166A56CE350E9724A101325D68FBC8 /* Logger.swift */; };
+		B6B15C16791BE00AD28AB9762F5CF15E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A482B71DEC0A39F730A32A5045130FD /* State.swift */; };
+		B9D3B51C78895E4225393292E707B2A4 /* Transitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658321B83A37FD312EA71CE4415D06CE /* Transitioning.swift */; };
+		BBEBDD054036241D190EE68386D8BE4E /* LayoutAnchoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B485CEDCFBA835523DCF5E0C33E23 /* LayoutAnchoring.swift */; };
+		BD030684DB491453C175AA7F99C5DE13 /* PanModal.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E9B1FC742DB48EBB28BEC8982B6EA8 /* PanModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB2BB28906BEBDD613CA6008051E6313 /* SPStorkIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD283A5648C582B7E894DF8049C35A13 /* SPStorkIndicatorView.swift */; };
+		CD7DC4E3DF9AD9EF9FD9E1C0C67C386B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D1F413745F02F75C0D42753DCB9D79BC /* PanModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF66BF65FA44E2D1651384E098315 /* PanModalPresentationController.swift */; };
+		D2AE8B96364AB26782B3A6B996618F46 /* FloatingPanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61624CAF7022B53C04B979B78C462B95 /* FloatingPanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5581DCA2FF9FC9DC6BA801D9EF1CA8C /* SPStorkCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B25832803FD2E809717200650C68678 /* SPStorkCloseView.swift */; };
+		D8D0C13CC230CEF5E73C98B924DDB030 /* SPStorkCodeDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391501B393F5FD451664E4AA1B64180 /* SPStorkCodeDraw.swift */; };
+		DC1A70CACD0B2ACA2A3FAA5EF320C15B /* PanModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B88564026CE16F9F8B03068543BE68B /* PanModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCFEA8DF1BF5DAE96E49184060BCE16B /* SPStorkTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BAD30C9A3E648E3D531A630E1AD56 /* SPStorkTransitioningDelegate.swift */; };
+		F2021C557BAABC303255C299C768CBA8 /* PanModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C7857B15E625AC34FEA930FF029D86 /* PanModal-dummy.m */; };
+		F87BF668A74FAF0D05C057C5033DF52F /* PanModalPresentable+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A1B15AED62984F3699FDF74C9835D /* PanModalPresentable+Defaults.swift */; };
+		FAF398918DF7A982CB84A5F8CD6A97F8 /* LayoutReferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB899B493358EB9E18AC79F55D7B23AC /* LayoutReferences.swift */; };
+		FF031A06C8785480FB161F5F96BDB5A2 /* SPStorkPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA831982FE48C57EBA48F0AEE899309 /* SPStorkPresentationController.swift */; };
+		FF4AC22D75B269D52B24298E9FD8C1AF /* Pods-samplePencilKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CAD861E0F612FF99894BE50FBBC4B5 /* Pods-samplePencilKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BF6DF26186B7A2ACECD0928255FCEF22 /* PBXContainerItemProxy */ = {
+		3A17A93B19D57342F92852FE8553A3A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4874E7E655CEB4C01E4572AD903AEA21;
+			remoteInfo = FloatingPanel;
+		};
+		76782D70DE8BEBBEBD67292F934C12D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E95886B4E31CDABBDB7AF092755E05;
+			remoteInfo = SPStorkController;
+		};
+		FEDDED536A9774559EEC72AC261DD756 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,48 +92,104 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		035170993C8ED708123768E0C45A1D8A /* PanModalPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationAnimator.swift; path = PanModal/Animator/PanModalPresentationAnimator.swift; sourceTree = "<group>"; };
-		070D38DBB755C381739E3E6B61769DBD /* PanModalPresentable+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+UIViewController.swift"; path = "PanModal/Presentable/PanModalPresentable+UIViewController.swift"; sourceTree = "<group>"; };
+		01F521064A373C69FE3EA17D05D40C27 /* UIExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIExtensions.swift; path = Sources/UIExtensions.swift; sourceTree = "<group>"; };
+		020E0138DBFC21DCD30A96A4459BA4DD /* SPStorkCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCloseButton.swift; path = Sources/SPStorkController/Views/SPStorkCloseButton.swift; sourceTree = "<group>"; };
+		0836D980D41A71CCC0D69C33489A47EE /* SPStorkDismissingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkDismissingAnimationController.swift; path = Sources/SPStorkController/TransitioningDelegate/SPStorkDismissingAnimationController.swift; sourceTree = "<group>"; };
+		0B774ED0114D0DE2D6170799A6FFBD6D /* SPStorkController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-umbrella.h"; sourceTree = "<group>"; };
+		0B88564026CE16F9F8B03068543BE68B /* PanModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PanModal-umbrella.h"; sourceTree = "<group>"; };
 		0BEC12964C4C96DA43994DC542F9BBB0 /* Pods-samplePencilKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-samplePencilKit-acknowledgements.plist"; sourceTree = "<group>"; };
 		120C1D6C8A5A747A7E524FC7AA41FCFF /* Pods-samplePencilKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-samplePencilKit-Info.plist"; sourceTree = "<group>"; };
+		13AA369E3307E2D3DCB0A162D0119739 /* PanContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanContainerView.swift; path = PanModal/View/PanContainerView.swift; sourceTree = "<group>"; };
+		144DCC0F6443228D92900D7DD5535A9E /* PanModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PanModal.debug.xcconfig; sourceTree = "<group>"; };
+		159075D9F4FB790528CE5B41F6C14E02 /* FloatingPanel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FloatingPanel-Info.plist"; sourceTree = "<group>"; };
 		161277983660BBB6908A635083708CFB /* PanModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PanModal.framework; path = PanModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A477556CE7E95A8877A9DBB7A08EB3 /* PanModalPresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentable.swift; path = PanModal/Presentable/PanModalPresentable.swift; sourceTree = "<group>"; };
-		22D601C0D01A583589670C3E48DC4B44 /* PanContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanContainerView.swift; path = PanModal/View/PanContainerView.swift; sourceTree = "<group>"; };
-		254CB43163B26FE0399AD46076288C93 /* PanModalPresentable+LayoutHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+LayoutHelpers.swift"; path = "PanModal/Presentable/PanModalPresentable+LayoutHelpers.swift"; sourceTree = "<group>"; };
-		2EEFDF0D665CD952A6EE34E508C7B323 /* PanModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PanModal.modulemap; sourceTree = "<group>"; };
-		487385C3273392966F175C0C60C14614 /* PanModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PanModal-prefix.pch"; sourceTree = "<group>"; };
+		1E5EF66BF65FA44E2D1651384E098315 /* PanModalPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationController.swift; path = PanModal/Controller/PanModalPresentationController.swift; sourceTree = "<group>"; };
+		2391501B393F5FD451664E4AA1B64180 /* SPStorkCodeDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCodeDraw.swift; path = Sources/SPStorkController/CodeDraw/SPStorkCodeDraw.swift; sourceTree = "<group>"; };
+		2669F3731E2C6DE1AD015445C9EE74A4 /* PanModalPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationAnimator.swift; path = PanModal/Animator/PanModalPresentationAnimator.swift; sourceTree = "<group>"; };
+		28AA5A261612CDE09131940118093D2B /* FloatingPanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FloatingPanel-dummy.m"; sourceTree = "<group>"; };
+		373A7E07818518177B1EA0F0C7419466 /* GrabberView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrabberView.swift; path = Sources/GrabberView.swift; sourceTree = "<group>"; };
+		3E7BAD30C9A3E648E3D531A630E1AD56 /* SPStorkTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkTransitioningDelegate.swift; path = Sources/SPStorkController/TransitioningDelegate/SPStorkTransitioningDelegate.swift; sourceTree = "<group>"; };
+		41E9B1FC742DB48EBB28BEC8982B6EA8 /* PanModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PanModal.h; path = PanModal/PanModal.h; sourceTree = "<group>"; };
+		451BD3988373866550E4E5330F1A1745 /* Controller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Controller.swift; path = Sources/Controller.swift; sourceTree = "<group>"; };
+		4733DBBECD1A99D316E44E6A03D15D5A /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Behavior.swift; sourceTree = "<group>"; };
+		4B25832803FD2E809717200650C68678 /* SPStorkCloseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCloseView.swift; path = Sources/SPStorkController/Views/SPStorkCloseView.swift; sourceTree = "<group>"; };
+		4D166A56CE350E9724A101325D68FBC8 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/Logger.swift; sourceTree = "<group>"; };
 		4E46F3F3D9C33B38021F42A0D5108766 /* Pods-samplePencilKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-samplePencilKit.modulemap"; sourceTree = "<group>"; };
-		553677FFE4DEDBE11C54F3FDD584269B /* PanModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresenter.swift; path = PanModal/Presenter/PanModalPresenter.swift; sourceTree = "<group>"; };
-		5803B63F62745E0499D40A373AE39471 /* UIViewController+PanModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PanModalPresenter.swift"; path = "PanModal/Presenter/UIViewController+PanModalPresenter.swift"; sourceTree = "<group>"; };
-		5DBE17C89CF069C3AA3ABDEB3A136B2D /* PanModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PanModal-Info.plist"; sourceTree = "<group>"; };
-		5E80DCDE9258F214CBC1D4EFE2706699 /* PanModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PanModal.debug.xcconfig; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		517BEA3A68BE826995E71EEA370C9F58 /* SPStorkControllerConfirmDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkControllerConfirmDelegate.swift; path = Sources/SPStorkController/Protocols/SPStorkControllerConfirmDelegate.swift; sourceTree = "<group>"; };
+		538092B9B020BAFB6332627D7A994B0A /* PanModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresenter.swift; path = PanModal/Presenter/PanModalPresenter.swift; sourceTree = "<group>"; };
+		542DFF86AC55454FE76A8D872B01BDDB /* UIViewController+PanModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PanModalPresenter.swift"; path = "PanModal/Presenter/UIViewController+PanModalPresenter.swift"; sourceTree = "<group>"; };
+		55EBC5973E25F7B07F409884010DFF92 /* PanModalPresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentable.swift; path = PanModal/Presentable/PanModalPresentable.swift; sourceTree = "<group>"; };
+		59BDC03C19BA323CF18A5A50B7990755 /* SPStorkController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkController.swift; path = Sources/SPStorkController/SPStorkController.swift; sourceTree = "<group>"; };
+		5AC99706E08147C3136FCB244DA37C4E /* PanModalHeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalHeight.swift; path = PanModal/Presentable/PanModalHeight.swift; sourceTree = "<group>"; };
+		61624CAF7022B53C04B979B78C462B95 /* FloatingPanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingPanel-umbrella.h"; sourceTree = "<group>"; };
+		640235F0981C2B015C630DDADC0A1CA4 /* PanModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PanModal-prefix.pch"; sourceTree = "<group>"; };
+		640F9338DBE0AB06234D52300BD876F4 /* SPStorkController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPStorkController-Info.plist"; sourceTree = "<group>"; };
+		658321B83A37FD312EA71CE4415D06CE /* Transitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transitioning.swift; path = Sources/Transitioning.swift; sourceTree = "<group>"; };
+		68E4BEE1FDAC6F77F4249D91657BCE09 /* PanModalPresentable+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+UIViewController.swift"; path = "PanModal/Presentable/PanModalPresentable+UIViewController.swift"; sourceTree = "<group>"; };
+		693D157DE30C8F1E0A9AD4BBA1FDD3B3 /* SPStorkController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-prefix.pch"; sourceTree = "<group>"; };
+		6A62A1F90A2A0DBD1D8B8076FBBDFBCF /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Sources/Layout.swift; sourceTree = "<group>"; };
+		6AA831982FE48C57EBA48F0AEE899309 /* SPStorkPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentationController.swift; path = Sources/SPStorkController/TransitioningDelegate/SPStorkPresentationController.swift; sourceTree = "<group>"; };
+		6FAAB7D3DE9B2564509ABD18687E938E /* FloatingPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FloatingPanel.framework; path = FloatingPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BD437621E62D0E020295DA21DAB94B /* Pods-samplePencilKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-samplePencilKit.debug.xcconfig"; sourceTree = "<group>"; };
-		74F20FDAF5E8955D00BB11BE8232441A /* PanModalPresentationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationDelegate.swift; path = PanModal/Delegate/PanModalPresentationDelegate.swift; sourceTree = "<group>"; };
-		75DD995457F1314CAC7E9EAB9F975C38 /* PanModalPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationController.swift; path = PanModal/Controller/PanModalPresentationController.swift; sourceTree = "<group>"; };
-		9AC7B6E86C5FFCBCA804131B198CA1B1 /* PanModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PanModal-umbrella.h"; sourceTree = "<group>"; };
+		7757D75BB33844412A0D1E6B9737A0C0 /* Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Position.swift; path = Sources/Position.swift; sourceTree = "<group>"; };
+		80F756286CC6DABF0805BD542551DFF7 /* PanModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PanModal-Info.plist"; sourceTree = "<group>"; };
+		85E4C2507C22D086C47BF1A3F13F0F1E /* PassthroughView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughView.swift; path = Sources/PassthroughView.swift; sourceTree = "<group>"; };
+		86883CA9334A42AB05D6FCDAA97D1A35 /* FloatingPanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingPanel-prefix.pch"; sourceTree = "<group>"; };
+		8C8D3E7DAC4A6F7D93BEE7C98A601DC9 /* SPStorkController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPStorkController.framework; path = SPStorkController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A49A3EEA6DEA710BF7A98F42C42748 /* FloatingPanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FloatingPanel.modulemap; sourceTree = "<group>"; };
+		9A482B71DEC0A39F730A32A5045130FD /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A556275631E6CA46F9C17C6CB94CCD60 /* PanModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PanModal.h; path = PanModal/PanModal.h; sourceTree = "<group>"; };
-		A690DA794A2F61184A1BDA91D484E39F /* DimmedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimmedView.swift; path = PanModal/View/DimmedView.swift; sourceTree = "<group>"; };
+		A0C7857B15E625AC34FEA930FF029D86 /* PanModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PanModal-dummy.m"; sourceTree = "<group>"; };
 		AE75433E4D63279A192EA366D23E8F32 /* Pods-samplePencilKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-samplePencilKit-umbrella.h"; sourceTree = "<group>"; };
-		B180D58A9C2E1F03942FF7F35ABB8AD6 /* PanModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PanModal-dummy.m"; sourceTree = "<group>"; };
-		D24C3F634A730C89882E691C3799CF1F /* PanModalHeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalHeight.swift; path = PanModal/Presentable/PanModalHeight.swift; sourceTree = "<group>"; };
+		AE9B485CEDCFBA835523DCF5E0C33E23 /* LayoutAnchoring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAnchoring.swift; path = Sources/LayoutAnchoring.swift; sourceTree = "<group>"; };
+		AF40B54CFD1480ADBE2314363B46E34A /* PanModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PanModal.release.xcconfig; sourceTree = "<group>"; };
+		B36D9E1082A9F1170517E2EDE2D3D315 /* PanModalAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalAnimator.swift; path = PanModal/Animator/PanModalAnimator.swift; sourceTree = "<group>"; };
+		B4163C15EB77E38E7C37008F71BF76CA /* DimmedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimmedView.swift; path = PanModal/View/DimmedView.swift; sourceTree = "<group>"; };
+		C1FE4DB4C528C6E3D3A89C6F8D0D73FF /* SPStorkSeque.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkSeque.swift; path = Sources/SPStorkController/SPStorkSeque.swift; sourceTree = "<group>"; };
+		C4EC3656F5F755B15AF1C7AC76BED2C4 /* SPStorkHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkHaptic.swift; path = Sources/SPStorkController/Models/SPStorkHaptic.swift; sourceTree = "<group>"; };
+		C60FBABE14E0C25133B17D65247CB053 /* SPStorkPresentingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentingAnimationController.swift; path = Sources/SPStorkController/TransitioningDelegate/SPStorkPresentingAnimationController.swift; sourceTree = "<group>"; };
+		C68554B11FB6395BE6C2A1ED9A292C7B /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Sources/Core.swift; sourceTree = "<group>"; };
+		C6BCF52E84E6863155D3CBBB05A6D2CE /* SPStorkController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPStorkController.debug.xcconfig; sourceTree = "<group>"; };
+		CE4E1F853881779C7C819DEB0991DC7B /* FloatingPanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingPanel.release.xcconfig; sourceTree = "<group>"; };
+		CEFB52D597D5594BA85E4AE214B7B98A /* PanModalPresentationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationDelegate.swift; path = PanModal/Delegate/PanModalPresentationDelegate.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2499923619A76DB2CA7D9FE26F05ABC /* PanModalPresentable+LayoutHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+LayoutHelpers.swift"; path = "PanModal/Presentable/PanModalPresentable+LayoutHelpers.swift"; sourceTree = "<group>"; };
+		D59FB27C82A6F72F0CC0C4C03E6A62D6 /* SPStorkControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkControllerDelegate.swift; path = Sources/SPStorkController/Protocols/SPStorkControllerDelegate.swift; sourceTree = "<group>"; };
+		D9684BF486E847414FFB91AE8831DD4E /* FloatingPanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingPanel.debug.xcconfig; sourceTree = "<group>"; };
 		DC3E60C8C8A6E0225D079955DF559461 /* Pods_samplePencilKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_samplePencilKit.framework; path = "Pods-samplePencilKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0CC42FCC8A06AF623153CD18D513827 /* PanModalPresentable+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+Defaults.swift"; path = "PanModal/Presentable/PanModalPresentable+Defaults.swift"; sourceTree = "<group>"; };
+		DDE84F6D90BCFD36106E23E27393D69B /* PanModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PanModal.modulemap; sourceTree = "<group>"; };
+		E161E7574E1E4E64BC9CCBABFE0FF0C2 /* SurfaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SurfaceView.swift; path = Sources/SurfaceView.swift; sourceTree = "<group>"; };
 		E4CAD861E0F612FF99894BE50FBBC4B5 /* Pods-samplePencilKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-samplePencilKit-dummy.m"; sourceTree = "<group>"; };
 		E5C481EEFA514741EC9331DC020CBD3B /* Pods-samplePencilKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-samplePencilKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9EBAD2EC20B523C5A2706D8B2A9AB04 /* PanModalAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalAnimator.swift; path = PanModal/Animator/PanModalAnimator.swift; sourceTree = "<group>"; };
+		E798A3F7443B9DB0986FD8D442F5A11E /* BackdropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackdropView.swift; path = Sources/BackdropView.swift; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EC7912362DA060840D5246A80CD913DB /* Pods-samplePencilKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-samplePencilKit-frameworks.sh"; sourceTree = "<group>"; };
+		F20E6ED2A4FB99412E9E992E14106455 /* SPStorkController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPStorkController.modulemap; sourceTree = "<group>"; };
 		F2451B9C996416C75B0B7218B1811B45 /* Pods-samplePencilKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-samplePencilKit.release.xcconfig"; sourceTree = "<group>"; };
-		F619F0DC2FCC86B50F1663E3A6C49AB7 /* PanModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PanModal.release.xcconfig; sourceTree = "<group>"; };
+		F433ABECF3E3242D48EA61646ADBD985 /* SPStorkViewControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkViewControllerExtenshion.swift; path = Sources/SPStorkController/Extenshion/SPStorkViewControllerExtenshion.swift; sourceTree = "<group>"; };
+		F7E49B3B0125755517155888BFC83761 /* SPStorkController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPStorkController-dummy.m"; sourceTree = "<group>"; };
+		FA1CDB6CC92D254CE6D44E53A7B6B9D1 /* SPStorkController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPStorkController.release.xcconfig; sourceTree = "<group>"; };
+		FB899B493358EB9E18AC79F55D7B23AC /* LayoutReferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutReferences.swift; path = Sources/LayoutReferences.swift; sourceTree = "<group>"; };
+		FD283A5648C582B7E894DF8049C35A13 /* SPStorkIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkIndicatorView.swift; path = Sources/SPStorkController/Views/SPStorkIndicatorView.swift; sourceTree = "<group>"; };
+		FF210D2095EA75C2CE82AFCF0D673538 /* SPStorkArrowMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkArrowMode.swift; path = Sources/SPStorkController/Models/SPStorkArrowMode.swift; sourceTree = "<group>"; };
+		FF2A1B15AED62984F3699FDF74C9835D /* PanModalPresentable+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+Defaults.swift"; path = "PanModal/Presentable/PanModalPresentable+Defaults.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B1614DBF405D4B553AAF3EDC6DE3219 /* Frameworks */ = {
+		22DCC931BC415DDC7B648571C44E137D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B38FFBF6FBE7431C41D3D050A010ED9 /* Foundation.framework in Frameworks */,
+				0235661CEC757F944072D480575DA609 /* Foundation.framework in Frameworks */,
+				594272573E6B956E3E06FCA943EFB0BC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563357F81F4D67BF7666A14E91C28C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477B6758422656FC38509380F337786E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,47 +201,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BC904DFE86CC0389C4E4CAC6A7203C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDEBA1EC22C40AA6546AD1FAFE9CA38 /* Foundation.framework in Frameworks */,
+				9A1D71A113F2B7FA325CEE637CF85CF7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C6A028EEB277E6FF20E1B1B33875688 /* Products */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				161277983660BBB6908A635083708CFB /* PanModal.framework */,
-				DC3E60C8C8A6E0225D079955DF559461 /* Pods_samplePencilKit.framework */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		55838C4315EC851CDBE70F068D261515 /* Support Files */ = {
+		245D37B6D35078AC6D4C74FA3A9F111B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2EEFDF0D665CD952A6EE34E508C7B323 /* PanModal.modulemap */,
-				B180D58A9C2E1F03942FF7F35ABB8AD6 /* PanModal-dummy.m */,
-				5DBE17C89CF069C3AA3ABDEB3A136B2D /* PanModal-Info.plist */,
-				487385C3273392966F175C0C60C14614 /* PanModal-prefix.pch */,
-				9AC7B6E86C5FFCBCA804131B198CA1B1 /* PanModal-umbrella.h */,
-				5E80DCDE9258F214CBC1D4EFE2706699 /* PanModal.debug.xcconfig */,
-				F619F0DC2FCC86B50F1663E3A6C49AB7 /* PanModal.release.xcconfig */,
+				AF9C5042AEFDDFA5B5F39F77869F2F42 /* FloatingPanel */,
+				FBDA629CCB4287B4CD20AEF26205D05D /* PanModal */,
+				3B3044166D8B52165A7BB6A9DB362CE9 /* SPStorkController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2637DE1696371C8138AC944A36F9A4D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE84F6D90BCFD36106E23E27393D69B /* PanModal.modulemap */,
+				A0C7857B15E625AC34FEA930FF029D86 /* PanModal-dummy.m */,
+				80F756286CC6DABF0805BD542551DFF7 /* PanModal-Info.plist */,
+				640235F0981C2B015C630DDADC0A1CA4 /* PanModal-prefix.pch */,
+				0B88564026CE16F9F8B03068543BE68B /* PanModal-umbrella.h */,
+				144DCC0F6443228D92900D7DD5535A9E /* PanModal.debug.xcconfig */,
+				AF40B54CFD1480ADBE2314363B46E34A /* PanModal.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PanModal";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		3B3044166D8B52165A7BB6A9DB362CE9 /* SPStorkController */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				FF210D2095EA75C2CE82AFCF0D673538 /* SPStorkArrowMode.swift */,
+				020E0138DBFC21DCD30A96A4459BA4DD /* SPStorkCloseButton.swift */,
+				4B25832803FD2E809717200650C68678 /* SPStorkCloseView.swift */,
+				2391501B393F5FD451664E4AA1B64180 /* SPStorkCodeDraw.swift */,
+				59BDC03C19BA323CF18A5A50B7990755 /* SPStorkController.swift */,
+				517BEA3A68BE826995E71EEA370C9F58 /* SPStorkControllerConfirmDelegate.swift */,
+				D59FB27C82A6F72F0CC0C4C03E6A62D6 /* SPStorkControllerDelegate.swift */,
+				0836D980D41A71CCC0D69C33489A47EE /* SPStorkDismissingAnimationController.swift */,
+				C4EC3656F5F755B15AF1C7AC76BED2C4 /* SPStorkHaptic.swift */,
+				FD283A5648C582B7E894DF8049C35A13 /* SPStorkIndicatorView.swift */,
+				6AA831982FE48C57EBA48F0AEE899309 /* SPStorkPresentationController.swift */,
+				C60FBABE14E0C25133B17D65247CB053 /* SPStorkPresentingAnimationController.swift */,
+				C1FE4DB4C528C6E3D3A89C6F8D0D73FF /* SPStorkSeque.swift */,
+				3E7BAD30C9A3E648E3D531A630E1AD56 /* SPStorkTransitioningDelegate.swift */,
+				F433ABECF3E3242D48EA61646ADBD985 /* SPStorkViewControllerExtenshion.swift */,
+				C270063533FBF182A9C9BF99FA2231E0 /* Support Files */,
 			);
-			name = iOS;
+			name = SPStorkController;
+			path = SPStorkController;
 			sourceTree = "<group>";
 		};
-		57EDE32A83AB5C267EA7AB42187F58A9 /* Pods */ = {
+		521FA392EDD8F72FAD782E876716B7F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				866DDAE81F2ED58E26688163FA5D1689 /* PanModal */,
+				98A49A3EEA6DEA710BF7A98F42C42748 /* FloatingPanel.modulemap */,
+				28AA5A261612CDE09131940118093D2B /* FloatingPanel-dummy.m */,
+				159075D9F4FB790528CE5B41F6C14E02 /* FloatingPanel-Info.plist */,
+				86883CA9334A42AB05D6FCDAA97D1A35 /* FloatingPanel-prefix.pch */,
+				61624CAF7022B53C04B979B78C462B95 /* FloatingPanel-umbrella.h */,
+				D9684BF486E847414FFB91AE8831DD4E /* FloatingPanel.debug.xcconfig */,
+				CE4E1F853881779C7C819DEB0991DC7B /* FloatingPanel.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/FloatingPanel";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6C609D6038ED081DCB562F88FD9306D7 /* Targets Support Files */ = {
@@ -161,51 +319,117 @@
 			path = "Target Support Files/Pods-samplePencilKit";
 			sourceTree = "<group>";
 		};
-		866DDAE81F2ED58E26688163FA5D1689 /* PanModal */ = {
+		AF9C5042AEFDDFA5B5F39F77869F2F42 /* FloatingPanel */ = {
 			isa = PBXGroup;
 			children = (
-				A690DA794A2F61184A1BDA91D484E39F /* DimmedView.swift */,
-				22D601C0D01A583589670C3E48DC4B44 /* PanContainerView.swift */,
-				A556275631E6CA46F9C17C6CB94CCD60 /* PanModal.h */,
-				E9EBAD2EC20B523C5A2706D8B2A9AB04 /* PanModalAnimator.swift */,
-				D24C3F634A730C89882E691C3799CF1F /* PanModalHeight.swift */,
-				18A477556CE7E95A8877A9DBB7A08EB3 /* PanModalPresentable.swift */,
-				E0CC42FCC8A06AF623153CD18D513827 /* PanModalPresentable+Defaults.swift */,
-				254CB43163B26FE0399AD46076288C93 /* PanModalPresentable+LayoutHelpers.swift */,
-				070D38DBB755C381739E3E6B61769DBD /* PanModalPresentable+UIViewController.swift */,
-				035170993C8ED708123768E0C45A1D8A /* PanModalPresentationAnimator.swift */,
-				75DD995457F1314CAC7E9EAB9F975C38 /* PanModalPresentationController.swift */,
-				74F20FDAF5E8955D00BB11BE8232441A /* PanModalPresentationDelegate.swift */,
-				553677FFE4DEDBE11C54F3FDD584269B /* PanModalPresenter.swift */,
-				5803B63F62745E0499D40A373AE39471 /* UIViewController+PanModalPresenter.swift */,
-				55838C4315EC851CDBE70F068D261515 /* Support Files */,
+				E798A3F7443B9DB0986FD8D442F5A11E /* BackdropView.swift */,
+				4733DBBECD1A99D316E44E6A03D15D5A /* Behavior.swift */,
+				451BD3988373866550E4E5330F1A1745 /* Controller.swift */,
+				C68554B11FB6395BE6C2A1ED9A292C7B /* Core.swift */,
+				373A7E07818518177B1EA0F0C7419466 /* GrabberView.swift */,
+				6A62A1F90A2A0DBD1D8B8076FBBDFBCF /* Layout.swift */,
+				AE9B485CEDCFBA835523DCF5E0C33E23 /* LayoutAnchoring.swift */,
+				FB899B493358EB9E18AC79F55D7B23AC /* LayoutReferences.swift */,
+				4D166A56CE350E9724A101325D68FBC8 /* Logger.swift */,
+				85E4C2507C22D086C47BF1A3F13F0F1E /* PassthroughView.swift */,
+				7757D75BB33844412A0D1E6B9737A0C0 /* Position.swift */,
+				9A482B71DEC0A39F730A32A5045130FD /* State.swift */,
+				E161E7574E1E4E64BC9CCBABFE0FF0C2 /* SurfaceView.swift */,
+				658321B83A37FD312EA71CE4415D06CE /* Transitioning.swift */,
+				01F521064A373C69FE3EA17D05D40C27 /* UIExtensions.swift */,
+				521FA392EDD8F72FAD782E876716B7F7 /* Support Files */,
 			);
-			name = PanModal;
-			path = PanModal;
+			name = FloatingPanel;
+			path = FloatingPanel;
+			sourceTree = "<group>";
+		};
+		C270063533FBF182A9C9BF99FA2231E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F20E6ED2A4FB99412E9E992E14106455 /* SPStorkController.modulemap */,
+				F7E49B3B0125755517155888BFC83761 /* SPStorkController-dummy.m */,
+				640F9338DBE0AB06234D52300BD876F4 /* SPStorkController-Info.plist */,
+				693D157DE30C8F1E0A9AD4BBA1FDD3B3 /* SPStorkController-prefix.pch */,
+				0B774ED0114D0DE2D6170799A6FFBD6D /* SPStorkController-umbrella.h */,
+				C6BCF52E84E6863155D3CBBB05A6D2CE /* SPStorkController.debug.xcconfig */,
+				FA1CDB6CC92D254CE6D44E53A7B6B9D1 /* SPStorkController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPStorkController";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				57EDE32A83AB5C267EA7AB42187F58A9 /* Pods */,
-				0C6A028EEB277E6FF20E1B1B33875688 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				245D37B6D35078AC6D4C74FA3A9F111B /* Pods */,
+				E8E944408D8D82DD42B2769A8A3B2A2A /* Products */,
 				6C609D6038ED081DCB562F88FD9306D7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E8E944408D8D82DD42B2769A8A3B2A2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				6FAAB7D3DE9B2564509ABD18687E938E /* FloatingPanel.framework */,
+				161277983660BBB6908A635083708CFB /* PanModal.framework */,
+				DC3E60C8C8A6E0225D079955DF559461 /* Pods_samplePencilKit.framework */,
+				8C8D3E7DAC4A6F7D93BEE7C98A601DC9 /* SPStorkController.framework */,
 			);
-			name = Frameworks;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBDA629CCB4287B4CD20AEF26205D05D /* PanModal */ = {
+			isa = PBXGroup;
+			children = (
+				B4163C15EB77E38E7C37008F71BF76CA /* DimmedView.swift */,
+				13AA369E3307E2D3DCB0A162D0119739 /* PanContainerView.swift */,
+				41E9B1FC742DB48EBB28BEC8982B6EA8 /* PanModal.h */,
+				B36D9E1082A9F1170517E2EDE2D3D315 /* PanModalAnimator.swift */,
+				5AC99706E08147C3136FCB244DA37C4E /* PanModalHeight.swift */,
+				55EBC5973E25F7B07F409884010DFF92 /* PanModalPresentable.swift */,
+				FF2A1B15AED62984F3699FDF74C9835D /* PanModalPresentable+Defaults.swift */,
+				D2499923619A76DB2CA7D9FE26F05ABC /* PanModalPresentable+LayoutHelpers.swift */,
+				68E4BEE1FDAC6F77F4249D91657BCE09 /* PanModalPresentable+UIViewController.swift */,
+				2669F3731E2C6DE1AD015445C9EE74A4 /* PanModalPresentationAnimator.swift */,
+				1E5EF66BF65FA44E2D1651384E098315 /* PanModalPresentationController.swift */,
+				CEFB52D597D5594BA85E4AE214B7B98A /* PanModalPresentationDelegate.swift */,
+				538092B9B020BAFB6332627D7A994B0A /* PanModalPresenter.swift */,
+				542DFF86AC55454FE76A8D872B01BDDB /* UIViewController+PanModalPresenter.swift */,
+				2637DE1696371C8138AC944A36F9A4D2 /* Support Files */,
+			);
+			name = PanModal;
+			path = PanModal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		49312E0F721F99C0A367C972DA796450 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F197BE95B262581D49F7F165F13B5A /* SPStorkController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C2E962A15725194D41BA08E81003C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F49A30FB5F94E6B9A8DD6EBA49EB74 /* Pods-samplePencilKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8967C2F7B999B0E82F72F8A50344B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AE8B96364AB26782B3A6B996618F46 /* FloatingPanel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8705DA2E5DC48F320712CA746DD1D402 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,34 +439,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F94C014C2C9D01065B2F29ABF6DBBB60 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1D5644ECEB035D24C80313FE860FA28 /* Pods-samplePencilKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		419768FD21E240709091E7A004EB7DF3 /* Pods-samplePencilKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2145A7817C9EA29665D5F6DF6B8E51AE /* Build configuration list for PBXNativeTarget "Pods-samplePencilKit" */;
+			buildConfigurationList = A3D864034727B0142D323CCD7DE805F4 /* Build configuration list for PBXNativeTarget "Pods-samplePencilKit" */;
 			buildPhases = (
-				F94C014C2C9D01065B2F29ABF6DBBB60 /* Headers */,
-				BCBA0CEBB428E84ECCBFF337BA4006A3 /* Sources */,
-				0B1614DBF405D4B553AAF3EDC6DE3219 /* Frameworks */,
-				30AF9E10E849E8F149B7D05628D655F0 /* Resources */,
+				52C2E962A15725194D41BA08E81003C0 /* Headers */,
+				41EC5ED9582375BE6E50B32C993CFAD2 /* Sources */,
+				563357F81F4D67BF7666A14E91C28C31 /* Frameworks */,
+				C1812864B39591EE9A8A9F2844F06542 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A0D211D6FD22FA2EECA1F3E9D947BE15 /* PBXTargetDependency */,
+				8200B919EB51175DBBE984597C9A4600 /* PBXTargetDependency */,
+				3085063DE997D0A92A4562C81F09E40C /* PBXTargetDependency */,
+				52632873BD2A8CA5105158108C7E9985 /* PBXTargetDependency */,
 			);
 			name = "Pods-samplePencilKit";
 			productName = "Pods-samplePencilKit";
 			productReference = DC3E60C8C8A6E0225D079955DF559461 /* Pods_samplePencilKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4874E7E655CEB4C01E4572AD903AEA21 /* FloatingPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D16F9348D825E651B6C98B708FA3920B /* Build configuration list for PBXNativeTarget "FloatingPanel" */;
+			buildPhases = (
+				5C8967C2F7B999B0E82F72F8A50344B0 /* Headers */,
+				27264655972209ADA966CD6CE06BB3F9 /* Sources */,
+				22DCC931BC415DDC7B648571C44E137D /* Frameworks */,
+				5F5908D3CFECA0DFDB4FE6DA0BCDC50C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatingPanel;
+			productName = FloatingPanel;
+			productReference = 6FAAB7D3DE9B2564509ABD18687E938E /* FloatingPanel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81E95886B4E31CDABBDB7AF092755E05 /* SPStorkController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C3437626813CDE6F4A37362E9BC2B0 /* Build configuration list for PBXNativeTarget "SPStorkController" */;
+			buildPhases = (
+				49312E0F721F99C0A367C972DA796450 /* Headers */,
+				28AF619612BD6307B7ADD16CC23270AF /* Sources */,
+				BC904DFE86CC0389C4E4CAC6A7203C22 /* Frameworks */,
+				2F136CA585B257CD38B76F0E398E55E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPStorkController;
+			productName = SPStorkController;
+			productReference = 8C8D3E7DAC4A6F7D93BEE7C98A601DC9 /* SPStorkController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AD16B149CC82594F15860A512FDBB6B9 /* PanModal */ = {
@@ -273,7 +527,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -281,18 +535,27 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0C6A028EEB277E6FF20E1B1B33875688 /* Products */;
+			productRefGroup = E8E944408D8D82DD42B2769A8A3B2A2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4874E7E655CEB4C01E4572AD903AEA21 /* FloatingPanel */,
 				AD16B149CC82594F15860A512FDBB6B9 /* PanModal */,
 				419768FD21E240709091E7A004EB7DF3 /* Pods-samplePencilKit */,
+				81E95886B4E31CDABBDB7AF092755E05 /* SPStorkController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30AF9E10E849E8F149B7D05628D655F0 /* Resources */ = {
+		2F136CA585B257CD38B76F0E398E55E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5908D3CFECA0DFDB4FE6DA0BCDC50C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,9 +569,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1812864B39591EE9A8A9F2844F06542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		27264655972209ADA966CD6CE06BB3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42290ADFDAA15ADDC859EFB62FE36920 /* BackdropView.swift in Sources */,
+				B2E27C74797E8F71B15646DB256CA2F4 /* Behavior.swift in Sources */,
+				1659A83A37A37847E63460EE37298260 /* Controller.swift in Sources */,
+				97EC0CF457117DFEC9A33CF45BDECBEF /* Core.swift in Sources */,
+				48FA84B1A4D6A45CAF42580875F1942A /* FloatingPanel-dummy.m in Sources */,
+				84D31336D2BB42EE8AE2231C65278BD7 /* GrabberView.swift in Sources */,
+				A85DDC7CA48FEF8C82A7B9B661E8A3E5 /* Layout.swift in Sources */,
+				BBEBDD054036241D190EE68386D8BE4E /* LayoutAnchoring.swift in Sources */,
+				FAF398918DF7A982CB84A5F8CD6A97F8 /* LayoutReferences.swift in Sources */,
+				B4CA4AB5B0B0CC75E54814CE654034EC /* Logger.swift in Sources */,
+				32CAD57136F62973B17307271803DABE /* PassthroughView.swift in Sources */,
+				418B744DEFDE1648A55B5017210252B2 /* Position.swift in Sources */,
+				B6B15C16791BE00AD28AB9762F5CF15E /* State.swift in Sources */,
+				6D56344D523518D928E8D9B62A542076 /* SurfaceView.swift in Sources */,
+				B9D3B51C78895E4225393292E707B2A4 /* Transitioning.swift in Sources */,
+				27A3FCA33FC096112F945F0969C4B4A1 /* UIExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF619612BD6307B7ADD16CC23270AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E33E401E748B04932CCAC48B29625F8 /* SPStorkArrowMode.swift in Sources */,
+				632C98DAAE5B25775DE3B90667B2FB1B /* SPStorkCloseButton.swift in Sources */,
+				D5581DCA2FF9FC9DC6BA801D9EF1CA8C /* SPStorkCloseView.swift in Sources */,
+				D8D0C13CC230CEF5E73C98B924DDB030 /* SPStorkCodeDraw.swift in Sources */,
+				29B8BE76F05E970017BA0771B3B25D59 /* SPStorkController-dummy.m in Sources */,
+				1BAD8C95A88770E3C630942508C68228 /* SPStorkController.swift in Sources */,
+				84A2F170B5142E9A2D2F62D2DA3CB43E /* SPStorkControllerConfirmDelegate.swift in Sources */,
+				6AF554EE7266C75CB59F784083050779 /* SPStorkControllerDelegate.swift in Sources */,
+				74CBF317C6223ED9D5ACA773EE06B349 /* SPStorkDismissingAnimationController.swift in Sources */,
+				5AEB31866F86C7982FD07CC4ED22CDBC /* SPStorkHaptic.swift in Sources */,
+				CB2BB28906BEBDD613CA6008051E6313 /* SPStorkIndicatorView.swift in Sources */,
+				FF031A06C8785480FB161F5F96BDB5A2 /* SPStorkPresentationController.swift in Sources */,
+				8F821DB4342AE3754D4409129B9435DA /* SPStorkPresentingAnimationController.swift in Sources */,
+				6688C50222C0F38A1754143FFC4CFE9C /* SPStorkSeque.swift in Sources */,
+				DCFEA8DF1BF5DAE96E49184060BCE16B /* SPStorkTransitioningDelegate.swift in Sources */,
+				A3EDCB78C9EB79175894519DBCDA574B /* SPStorkViewControllerExtenshion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EC5ED9582375BE6E50B32C993CFAD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4AC22D75B269D52B24298E9FD8C1AF /* Pods-samplePencilKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DF0C107B3EB308A3AD99D62CE074AAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,26 +654,103 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCBA0CEBB428E84ECCBFF337BA4006A3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C1A20D006F8DEA971D39B1E3DCE2D3C /* Pods-samplePencilKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A0D211D6FD22FA2EECA1F3E9D947BE15 /* PBXTargetDependency */ = {
+		3085063DE997D0A92A4562C81F09E40C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PanModal;
 			target = AD16B149CC82594F15860A512FDBB6B9 /* PanModal */;
-			targetProxy = BF6DF26186B7A2ACECD0928255FCEF22 /* PBXContainerItemProxy */;
+			targetProxy = FEDDED536A9774559EEC72AC261DD756 /* PBXContainerItemProxy */;
+		};
+		52632873BD2A8CA5105158108C7E9985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPStorkController;
+			target = 81E95886B4E31CDABBDB7AF092755E05 /* SPStorkController */;
+			targetProxy = 76782D70DE8BEBBEBD67292F934C12D1 /* PBXContainerItemProxy */;
+		};
+		8200B919EB51175DBBE984597C9A4600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FloatingPanel;
+			target = 4874E7E655CEB4C01E4572AD903AEA21 /* FloatingPanel */;
+			targetProxy = 3A17A93B19D57342F92852FE8553A3A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		405947D72AD502A151AEDB21BEF64D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2451B9C996416C75B0B7218B1811B45 /* Pods-samplePencilKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-samplePencilKit/Pods-samplePencilKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-samplePencilKit/Pods-samplePencilKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5164E5FFC698C108BA6C56320C5DA036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6BCF52E84E6863155D3CBBB05A6D2CE /* SPStorkController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPStorkController/SPStorkController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPStorkController/SPStorkController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPStorkController/SPStorkController.modulemap";
+				PRODUCT_MODULE_NAME = SPStorkController;
+				PRODUCT_NAME = SPStorkController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		71243899B61152433AAE34EE86456EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -412,9 +813,45 @@
 			};
 			name = Release;
 		};
+		746689950194A316E1978526BC97FE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1CDB6CC92D254CE6D44E53A7B6B9D1 /* SPStorkController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPStorkController/SPStorkController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPStorkController/SPStorkController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPStorkController/SPStorkController.modulemap";
+				PRODUCT_MODULE_NAME = SPStorkController;
+				PRODUCT_NAME = SPStorkController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		75130F8485AD2141BF95E2A3652EC5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E80DCDE9258F214CBC1D4EFE2706699 /* PanModal.debug.xcconfig */;
+			baseConfigurationReference = 144DCC0F6443228D92900D7DD5535A9E /* PanModal.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -513,7 +950,7 @@
 			};
 			name = Debug;
 		};
-		7F0A28F20F417703E99C914AF033895D /* Debug */ = {
+		98B39F5F425C7AD3DEDFA5D98B667FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74BD437621E62D0E020295DA21DAB94B /* Pods-samplePencilKit.debug.xcconfig */;
 			buildSettings = {
@@ -550,11 +987,10 @@
 			};
 			name = Debug;
 		};
-		DA040E77F767EDD57C20F08A9BEBCC85 /* Release */ = {
+		CD930234F9947514E16C28226C5B562E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2451B9C996416C75B0B7218B1811B45 /* Pods-samplePencilKit.release.xcconfig */;
+			baseConfigurationReference = D9684BF486E847414FFB91AE8831DD4E /* FloatingPanel.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -564,23 +1000,57 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-samplePencilKit/Pods-samplePencilKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FloatingPanel/FloatingPanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloatingPanel/FloatingPanel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-samplePencilKit/Pods-samplePencilKit.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/FloatingPanel/FloatingPanel.modulemap";
+				PRODUCT_MODULE_NAME = FloatingPanel;
+				PRODUCT_NAME = FloatingPanel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE578F332095A23B7B56EC864C55C897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4E1F853881779C7C819DEB0991DC7B /* FloatingPanel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FloatingPanel/FloatingPanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloatingPanel/FloatingPanel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FloatingPanel/FloatingPanel.modulemap";
+				PRODUCT_MODULE_NAME = FloatingPanel;
+				PRODUCT_NAME = FloatingPanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -590,7 +1060,7 @@
 		};
 		E3EFEB79558584C2D71F97C035C74761 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F619F0DC2FCC86B50F1663E3A6C49AB7 /* PanModal.release.xcconfig */;
+			baseConfigurationReference = AF40B54CFD1480ADBE2314363B46E34A /* PanModal.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -627,11 +1097,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2145A7817C9EA29665D5F6DF6B8E51AE /* Build configuration list for PBXNativeTarget "Pods-samplePencilKit" */ = {
+		10C3437626813CDE6F4A37362E9BC2B0 /* Build configuration list for PBXNativeTarget "SPStorkController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F0A28F20F417703E99C914AF033895D /* Debug */,
-				DA040E77F767EDD57C20F08A9BEBCC85 /* Release */,
+				5164E5FFC698C108BA6C56320C5DA036 /* Debug */,
+				746689950194A316E1978526BC97FE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -650,6 +1120,24 @@
 			buildConfigurations = (
 				75130F8485AD2141BF95E2A3652EC5AD /* Debug */,
 				E3EFEB79558584C2D71F97C035C74761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D864034727B0142D323CCD7DE805F4 /* Build configuration list for PBXNativeTarget "Pods-samplePencilKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B39F5F425C7AD3DEDFA5D98B667FA4 /* Debug */,
+				405947D72AD502A151AEDB21BEF64D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D16F9348D825E651B6C98B708FA3920B /* Build configuration list for PBXNativeTarget "FloatingPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD930234F9947514E16C28226C5B562E /* Debug */,
+				CE578F332095A23B7B56EC864C55C897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

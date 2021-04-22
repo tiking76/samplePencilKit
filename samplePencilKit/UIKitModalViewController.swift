@@ -7,7 +7,7 @@
 
 import UIKit
 import PencilKit
-import PanModal
+import SPStorkController
 
 class UIKitModalViewController: UIViewController {
 
@@ -18,34 +18,10 @@ class UIKitModalViewController: UIViewController {
         canvas.tool = PKInkingTool(.pen, color: .black, width: 30)
         view.addSubview(canvas)
     }
-}
-
-extension UIKitModalViewController: PanModalPresentable {
-    var panScrollable: UIScrollView? {
-        return nil
-    }
-
-    var shortFormHeight: PanModalHeight {
-        return .contentHeight(300)
-    }
-
-    var longFormHeight: PanModalHeight {
-        return .contentHeight(300)
-    }
     
-    var cornerRadius: CGFloat {
-        return 16.0
-    }
-
-    var backgroundAlpha: CGFloat {
-        return 0.3
-    }
-
-    var showDragIndicator: Bool {
-        return false
-    }
-
-    func shouldRespond(to panModalGestureRecognizer: UIPanGestureRecognizer) -> Bool {
-        return false
-    }
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return UIStatusBarStyle(rawValue: 0)!
+        }
 }
+
+

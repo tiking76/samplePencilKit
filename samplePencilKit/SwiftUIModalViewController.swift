@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import PanModal
+import SPStorkController
 
 class SwiftUIModalViewController: UIViewController {
     
@@ -29,32 +29,33 @@ class SwiftUIModalViewController: UIViewController {
     }
 }
 
-extension SwiftUIModalViewController: PanModalPresentable {
-    var panScrollable: UIScrollView? {
-        return nil
-    }
 
-    var shortFormHeight: PanModalHeight {
-        return .contentHeight(300)
-    }
-
-    var longFormHeight: PanModalHeight {
-        return .contentHeight(300)
-    }
-    
-    var cornerRadius: CGFloat {
-        return 16.0
-    }
-
-    var backgroundAlpha: CGFloat {
-        return 0.3
-    }
-
-    var showDragIndicator: Bool {
-        return false
-    }
-
-    func shouldRespond(to panModalGestureRecognizer: UIPanGestureRecognizer) -> Bool {
-        return false
-    }
-}
+//extension SwiftUIModalViewController: PanModalPresentable {
+//    var panScrollable: UIScrollView? {
+//        return nil
+//    }
+//
+//    var shortFormHeight: PanModalHeight {
+//        return .contentHeight(300)
+//    }
+//
+//    var longFormHeight: PanModalHeight {
+//        return .contentHeight(300)
+//    }
+//
+//    var cornerRadius: CGFloat {
+//        return 16.0
+//    }
+//
+//    var backgroundAlpha: CGFloat {
+//        return 0.3
+//    }
+//
+//    var showDragIndicator: Bool {
+//        return false
+//    }
+//
+//    func shouldRespond(to panModalGestureRecognizer: UIPanGestureRecognizer) -> Bool {
+//        return false
+//    }
+//}

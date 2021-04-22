@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-samplePencilKit/Pods-samplePencilKit-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FloatingPanel/FloatingPanel.framework
 ${BUILT_PRODUCTS_DIR}/PanModal/PanModal.framework
+${BUILT_PRODUCTS_DIR}/SPStorkController/SPStorkController.framework
