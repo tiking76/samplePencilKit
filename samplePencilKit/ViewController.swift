@@ -34,9 +34,7 @@ class ViewController: UIViewController, SPStorkControllerDelegate {
             transitionDelegate.storkDelegate = self
             transitionDelegate.customHeight = 300
             transitionDelegate.swipeToDismissEnabled = false
-            transitionDelegate.showCloseButton = false
             transitionDelegate.showIndicator = false
-            transitionDelegate.translateForDismiss = 100
             viewController.transitioningDelegate = transitionDelegate
             viewController.modalPresentationStyle = .custom
             self.present(viewController, animated: true, completion: nil)
